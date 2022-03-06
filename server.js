@@ -22,6 +22,15 @@ var tweet_combo2 = [];			// /tweet_combo2 page [same as first but this includes 
 var update_name_combo = [];		// /update_name_combo page
 
 
+
+// Assignment 2 Task 9
+function test_print(){
+
+         console.log(“test code”)
+
+}
+
+
 // read JSON objects from file
 fs.readFile('favs.json', 'utf-8', (err, data) => {
 	if (err) {
