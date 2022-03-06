@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Assignment 1</title>
+	<script src="jquery.js"></script>
+	<script src="scripts.js"></script>
+</head>
+<body>
+	<h1>CS 3203 Assignment 1</h1>
+	<h2>Anthony Balch 113053600</h2>
+	<button id="get-tweet-button">Read Tweets</button>
+	<button id="get-id-button">Read IDs</button>
+	<hr>
+
+	<form id ="get-tweet-form">
+		<input type = "text" id = "get-tweet-input">
+		<button>Get Tweet</button>
+	</form>
+
+	<form id = "post-tweet-form">
+		<input type = "text" id = "post-tweet-input-text">
+		<input type = "text" id = "post-tweet-input-id">
+		<button id ="post-tweet-button">Create Tweet</button>
+	</form>
+
+	<form id = "update-username-form">
+		<input type = "text" id = "update-name-input-old">
+		<input type = "text" id = "update-name-input-new">
+		<button id = "update-username-button">Update Username</button>
+	</form>
+
+	<form id ="delete-tweet-form">
+		<input type = "text" id = "delete-tweet-input">
+		<button id = "delete-tweet-button">Delete Tweet</button>
+	</form>
+
+	<hr>
+	
+
+	<table cellspacing="2" cellpadding="2" border="1" style="width:100%">
+			<thead>
+				<tr>
+					<th>Time Tweet Created</th>
+					<th>Tweet Contents</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<div class = "created_at_location column" ></div>
+					</td>
+					<td>
+						<div class = "text_location column" ></div>
+					</td>
+				</tr>
+			</tbody>
+	</table>
+
+	<hr>
+
+
+	<Strong>User IDs</Strong>
+	<div class = "user_id_location"></div>
+
+	<hr>
+	
+	<table cellspacing="2" cellpadding="2" border="1" style="width:100%">
+			<thead>
+				<tr>
+					<th>Time Tweet Created</th>
+					<th>Tweet Contents</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<div class = "find_created_at_location column" ></div>
+					</td>
+					<td>
+						<div class = "find_text_location column" ></div>
+					</td>
+				</tr>
+			</tbody>
+	</table>
+	
+
+
+</body>
+</html>
